@@ -13,19 +13,18 @@
 
 echo "my name is Salami"
 
-set +x
+set -x
 
 sudo apt update && sudo apt upgrade -y
 
-echo "This is MeMory usage display"
+
 df -l 
 
 du -sh
 
-echo " This is the Memory "
 free -g
 
-echo "this is Number of CPU"
+
 nproc
 
 
