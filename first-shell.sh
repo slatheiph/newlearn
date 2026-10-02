@@ -18,11 +18,12 @@ set -x
 sudo apt update && sudo apt upgrade -y
 
 
+
 df -l 
 
 du -sh
 
-free -g
+free -lg
 
 
 nproc
